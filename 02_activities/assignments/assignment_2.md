@@ -12,6 +12,28 @@
       ```
       Your answer...
 
+     I. Good visualization example: https://public.tableau.com/views/WorldHomelessnessDayHomelessnessinAustralia/HomelessnessinAustralia?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+      What makes this a good data visualization are :
+      1. Overall layout and interactive features - 
+      The heading is clear and the top number is reflective of the impact of the study. 
+      The definition and supporting data is presented clearly. The features are interactive, navigation is easy.
+      An important topic while local to Australia is connected well to the global World Homelessness Day.
+      2. Multiple dimensions used -
+      There are definations, along with numbers and explanations about "defining homelessness", demographic and geographic breakdowns for the "who" and "where" aspects. The viz also covers information about the possible causes. 
+      3. Credibility - 
+      Its on a public platform, has credible sources mentioned about where the data is from , and links to information for next steps that an individual could take to support or gather mor einformation from. This builds trust in what is being presented and the data source.
+
+      II. Bad Visualization example: https://public.tableau.com/app/profile/nastengraph/viz/BoringMonacoF1DriversStart-FinishPositionsinMonacoGP/BoringMonaco
+     What made this a poor data visualization are :
+     1. Overall layout and features -
+     The title doesnt make the viewer curious or interested in the data viz, its not appealing.Also teh title is not what the visualization is about, so in a way its misleading. The first impression of the data viz isnt appealing. The bar graph at the top right isnt very clear with the information, not all percentages are mentioned. There are quite a few images and they look pretty confusing in general.
+     2. Missing information -
+     After going through the information presented, the viewer may have further questions about causes, potential solutions , what impacted the results in a particular year to be different than others, what can be done to change the results, comparison to other race tracks.
+     3. Potential over aggregation -
+     There are so many factors that could influcence the results, but have not been considered.Or there may have been exceptions, like crashes, change in rules. for ex: there could be so many DNF (did not finish) cases amongst drivers, there is no mention of that. So when they are comparing finish to start, the data may not be. atrue reflection of finish, because finish is not clearly defined. Such aggregation could hide variation.
+     
+
+
 
 
 
@@ -22,6 +44,12 @@
     - How could this data visualization have been improved?  
       ```
       Your answer...
+
+      Here are some things that could make the data viz better -
+      1. Clear information - Well defined defination of Start and Finish. Title should reflect the data viz objective well.
+      2. Visually appealing - Information presented as a story that could be easily interpreted, be labelled, provide adequate evidence and generate interest in the viewer.
+      3. Comparisons - Information should be added about the other race tracks and how they compare with the Monaco race track. Adequate evidence to be included to make the story compelling.
+      4. Reproducibility - Information source details and how that could be reproduced by others looking for similar insights, should be included.
 
 
 

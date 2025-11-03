@@ -7,6 +7,7 @@
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
+Dataset link : https://open.toronto.ca/dataset/strollto/
     # Visualization 1 - Python
     > What software did you use to create your data visualization?
     I used Python, the pandas library for data manipulation and Matplotlib for creating the scatter plot. 
@@ -86,7 +87,7 @@
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
     Included: Ward Name (rows), Title (values), Neighbourhood (filter) because these directly show number of tours per ward and neighbourhood.
     Excluded: Other columns because they are not relevant to the focus on counting tours per ward.
-    
+
     > What ‘underwater labour’ contributed to your final data visualization product?
     Cleaning and inspecting the dataset to ensure ward names and neighbourhoods are accurate.
     Setting up the pivot table correctly with rows, values, and filters.

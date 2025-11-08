@@ -7,23 +7,94 @@
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
+Dataset link : https://open.toronto.ca/dataset/strollto/
+    # Visualization 1 - Python
     > What software did you use to create your data visualization?
+    I used Python, the pandas library for data manipulation and Matplotlib for creating the scatter plot. 
 
     > Who is your intended audience? 
-    
+    The intended audience includes Toronto residents, city planners, local tourism organizers, immigrants, and anyone interested in the two spcific neighbourhood walking tours.
+
     > What information or message are you trying to convey with your visualization? 
-    
+    The visualization conveys which walking tours are available in the selected neighbourhoods, specifically highlighting the distribution of tours for ‘West Humber Clairville’ and ‘Rexdale-Kipling’. The goal is to make it easy to see what tour options exist in each neighbourhood at a glance.
+
     > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
+    Key design considerations included:
+    1. Marker types and colors: Red stars for West Humber Clairville and green stars for Rexdale-Kipling to distinguish neighbourhoods clearly.
+    2. Axes labeling: X-axis shows neighbourhoods, Y-axis shows tour titles, giving context to what each point represents.3. Grid lines: Horizontal dashed grid lines aligned with neighbourhood rows make it easier to track tours across neighbourhoods.
+    3. Legend placement: Positioned near the plot to identify the markers without cluttering the visual.
+    4. Figure size and rotation: Adjusted figure size (8×8) and rotated X-axis labels (30°) to improve readability of text and prevent overlap.
+
+    > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+    Using Python with pandas and Matplotlib ensures full reproducibility: anyone with the dataset and the same code can generate the exact same visualization. Because the data and code are explicit, results are consistent and can be updated easily if the dataset changes.
+    > How did you ensure that your data visualization is accessible?  
+    1. Color choice: Red and green markers were chosen for high contrast, but for accessibility, marker shape also differs (stars).
+    2. Text readability: Axis labels, plot title, and legend are clearly visible and sized appropriately.
+    3. Grid lines: Help viewers align tours with neighbourhoods visually.
+
+    These choices improve readability for viewers with varying visual abilities.
+
+    > Who are the individuals and communities who might be impacted by your visualization?  
+    1. Residents who want to explore local walking tours.
+    2. Tourism organizations planning community events or marketing neighbourhood tours.
+    3. City planners assessing distribution of walking tours across Toronto.
+    4. Researchers or students studying urban planning, accessibility, or tourism patterns.
+
+    > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+    Included: Specific Neighbourhood and Title because the goal is to show which tours exist in these specific neighbourhoods.
+
+    Excluded: Other Neighbourhoods, and dataset features such as Ward, DescriptionWard_name, order , etc, since they are not relevant to this specific comparison of neighbourhood tour offerings. This keeps the plot simple and readable.
+
+    > What ‘underwater labour’ contributed to your final data visualization product?
+    Cleaning and inspecting the dataset to ensure neighbourhood names and tour titles were accurate.
+    Deciding which neighbourhoods to focus on (West Humber Clairville and Rexdale-Kipling).
+    Choosing marker styles, colors, figure size, rotation, and grid alignment for clarity and readability.
+    Iteratively testing code to handle different numbers of tours and long tour names without overlapping points.
+    Ensuring the plot was reproducible and accessible by setting proper labels, legends, and colors.
+
+
+    # Visualization 2 - Excel
+    > What software did you use to create your data visualization?
+    I used Microsoft Excel to create the pivot table and bar chart. Excel was used to filter, summarize, and visualize the dataset using pivot tables, which allow dynamic exploration of data.    
+    
+    > Who is your intended audience? 
+    The intended audience includes city planners, local tourism organizers, researchers, and Toronto residents interested in exploring walking tours by ward. It could also serve students or analysts studying urban accessibility or community engagement.
+    > What information or message are you trying to convey with your visualization? 
+    The visualization conveys the number of StrollTO tours available in each ward and allows filtering by neighbourhood. It highlights which wards have more tours and can help identify areas with fewer or more walking opportunities.
+
+    > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
+    Pivot table structure: Using Ward Names in rows and Count of Titles in values makes it easy to compare tour counts.
+    Filters for neighbourhoods: Allows viewers to focus on specific neighbourhoods of interest.
+    Bar chart: Chosen for clarity and easy comparison of numeric values.
+    Axis labels and title: Clearly indicate what the chart represents.
+    Sorting: Wards can be sorted alphabetically or by count to emphasize patterns.
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
-    
+    Pivot tables in Excel are fully reproducible: anyone with the same dataset can recreate the pivot table and chart by following the same steps. If the tool were not reproducible, updates to the dataset would require manually rebuilding the visualization, increasing the risk of errors and inconsistencies.
+
     > How did you ensure that your data visualization is accessible?  
-    
+    Clear labels and titles make the chart understandable.
+    Filters allow users to focus on relevant neighbourhoods or wards.
+    Bar chart orientation ensures numeric comparison is easy to interpret.
+    High-contrast colors and readable fonts improve visibility for all viewers.
+
     > Who are the individuals and communities who might be impacted by your visualization?  
-    
+    Local residents looking for walking tours.
+    Tourism organizations planning events or promoting community activities.
+    City planners assessing distribution of tours across wards.
+    Researchers or students analyzing patterns in urban accessibility or community engagement.
+
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
-    
+    Included: Ward Name (rows), Title (values), Neighbourhood (filter) because these directly show number of tours per ward and neighbourhood.
+    Excluded: Other columns because they are not relevant to the focus on counting tours per ward.
+
     > What ‘underwater labour’ contributed to your final data visualization product?
+    Cleaning and inspecting the dataset to ensure ward names and neighbourhoods are accurate.
+    Setting up the pivot table correctly with rows, values, and filters.
+    Sorting and formatting the chart for readability and accessibility.
+    Iteratively adjusting labels, titles, and filters to ensure clarity.
+    Verifying counts against raw data to ensure accuracy of representation.
+
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
